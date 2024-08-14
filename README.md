@@ -28,11 +28,8 @@ The PID controller is a control loop mechanism widely used in industrial control
 
 ### PID Formula:
    
-      \[ u(t) = K_p \cdot e(t) + K_i \cdot \int_0^t e(\tau) d\tau + K_d \cdot \frac{de(t)}{dt} \]
-      Where:
-      - \( u(t) \) is the control signal (force applied to the cart).
-      - \( e(t) \) is the error (difference between the desired angle and the current angle).
-      - \( K_p \), \( K_i \), and \( K_d \) are the proportional, integral, and derivative gains, respectively.
+      ![image](https://github.com/user-attachments/assets/5b29cae3-e3d0-484b-a656-b5d71270ba2c)
+
 
 ## Code Explanation
 
