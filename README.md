@@ -28,7 +28,7 @@ The PID controller is a control loop mechanism widely used in industrial control
 
 ### PID Formula:
    
-      ![alt text](https://github.com/user-attachments/assets/5b29cae3-e3d0-484b-a656-b5d71270ba2c)
+      ![Alt text](https://github.com/user-attachments/assets/5b29cae3-e3d0-484b-a656-b5d71270ba2c)
 
 
 ## Code Explanation
