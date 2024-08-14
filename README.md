@@ -27,12 +27,12 @@ The PID controller is a control loop mechanism widely used in industrial control
 3. **Derivative (D):** The control action is proportional to the rate of change of the error (derivative of error). It provides a damping effect, reducing the likelihood of oscillations.
 
 ### PID Formula:
-   ```python
-   \[ u(t) = K_p \cdot e(t) + K_i \cdot \int_0^t e(\tau) d\tau + K_d \cdot \frac{de(t)}{dt} \]
-   Where:
-   - \( u(t) \) is the control signal (force applied to the cart).
-   - \( e(t) \) is the error (difference between the desired angle and the current angle).
-   - \( K_p \), \( K_i \), and \( K_d \) are the proportional, integral, and derivative gains, respectively.
+   
+      \[ u(t) = K_p \cdot e(t) + K_i \cdot \int_0^t e(\tau) d\tau + K_d \cdot \frac{de(t)}{dt} \]
+      Where:
+      - \( u(t) \) is the control signal (force applied to the cart).
+      - \( e(t) \) is the error (difference between the desired angle and the current angle).
+      - \( K_p \), \( K_i \), and \( K_d \) are the proportional, integral, and derivative gains, respectively.
 
 ## Code Explanation
 
